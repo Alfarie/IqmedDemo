@@ -1,4 +1,8 @@
-#!/bin/bash
+#!/bin/sh
+
+if[ $0 -lt 2]; then
+    echo "require more parameters"
+    exit 0
 SERVICE_NAME=MyService
 PATH_TO_JAR=$2
 PID_PATH_NAME=/tmp/MyService-pid
