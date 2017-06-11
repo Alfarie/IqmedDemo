@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 SERVICE_NAME=MyService
 PATH_TO_JAR=$2
 PID_PATH_NAME=/tmp/MyService-pid
