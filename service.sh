@@ -1,5 +1,3 @@
-#!/bin/sh
-
 if[ $0 -lt 2]; then
     echo "require more parameters"
     exit 0
